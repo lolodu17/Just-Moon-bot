@@ -1,6 +1,6 @@
 {
   "name": "Just'moon Bot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "C'est un bot dédier à just'moon",
   "main": "Main.js",
   "engines": {
