@@ -18,4 +18,4 @@ console.log(bot.users.displayName + " est connecté");
 
 
 
-bot.login("process.env.TOKEN")
+bot.login("process.env.token")
