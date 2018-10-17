@@ -1,6 +1,6 @@
 const ytdl = require('ytdl-core');
 const Discord = require("discord.js")
-const bot = New Discord.Client()
+const bot = new Discord.Client()
 bot.on("message", message => {
 	if (message.content.startsWith("!play")){
 	
