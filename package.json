@@ -1,0 +1,25 @@
+{
+  "name": "Just'moon Bot",
+  "version": "0.0.1",
+  "description": "C'est un bot dédier à just'moon",
+  "main": "Main.js",
+  "engines": {
+    "node": "latest",
+    "npm": "latest"
+  },
+  "scripts": {
+    "start": "node Main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+     "ffmpeg": "0.0.4",
+    "discord.js": "^11.2.1",
+    "node-opus": "^0.2.7",
+    "youtube-search": "^1.0.10",
+    "ytdl-core": "^0.18.1",
+    "@google-cloud/datastore": "^1.3.3",
+    "dateformat": "^3.0.3",
+    "yt-search": "^0.2.0"
+  }
+}
