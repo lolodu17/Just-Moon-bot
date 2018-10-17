@@ -6,7 +6,7 @@ const content = new Discord.Client()
 
 
 
-var prefix = ""
+var prefix = "!"
 bot.on("ready", function () {
 
 bot.user.setUsername("Just'Moon bot")
