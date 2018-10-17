@@ -17,5 +17,5 @@ console.log(bot.users.displayName + " est connecté");
 
 
 
-process.env.TOKEN
-bot.login("NTAyMTEwNTc0Mjk4MDA1NTA1.DqjMpQ.RSiOdIwhA73xgsrdZalOut7Mt5U")
+
+bot.login("process.env.TOKEN")
