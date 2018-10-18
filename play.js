@@ -1,8 +1,7 @@
 const ytdl = require('ytdl-core');
 const Discord = require("discord.js")
 const bot = new Discord.Client()
-bot.on("message", message => {
-	if (message.content.startsWith("!musique")){
+
 	
 let xo03 = xoargs.join(" ")
  if(!xo03) return message.reply("Désoler , vous n'avez pas mit de lien.");
@@ -17,5 +16,4 @@ let connection = await message.member.voiceChannel.join();
 let dispatcher = await connection.play(ytdl(args[0, { filter: 'audiooly' }]));
 message.channel.send("Vous êtes en train d'écouter : " + ${info.title});
 
-}	}
-})
+}	
