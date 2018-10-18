@@ -2,13 +2,13 @@
   "name": "Just'moon bot",
   "version": "1.0.0",
   "description": "C'est un bot affilé à Just'Moon par octokling",
-  "main": "Main.js",
+  "main": "index.js",
   "engines": {
     "node": "latest",
     "npm": "latest"
   },
   "scripts": {
-    "start": "node Main.js"
+    "start": "node index.js"
   },
   "author": "Octokling",
   "license": "MIT",
