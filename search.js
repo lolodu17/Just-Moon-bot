@@ -1,4 +1,9 @@
 const search = require("yt-search");
+const Discord = require("discord.js")
+const bot = new Discord.Client()
+bot.on("message", message => {
+	if (message.content.startsWith("!search")){
+
 exports.run = (client, message, args ops) => {
 	search(args.join(' '), function(err, res) => {
 	if (err) return message.channel.send("Une erreur est survenue , merci d'en parler à Octokling");
@@ -17,4 +22,4 @@ let commandFile = require("./play.js")
 commandFile.run(client, message, [this.videos[parseInt(m.content)-1].url], ops);
 
 	});
-}
+}}})
